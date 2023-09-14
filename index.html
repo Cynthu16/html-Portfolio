@@ -1,28 +1,32 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
 <!DOCTYPE html>
-<html lang ="en">
-    <head>
-    <meta charset="UTF-8">
-    <title>Cynthia Dsouza's Portfolio</title>
-    </head>
-    <body>
-        <h1>Cynthia Dsouza's Portfolio</h1>
-        <hr/>
-        <h3>I am an aspiring WEB developer</h3>
-
-        <h3><a href="./public/My Birthday Invite.html"> My Birthday Invite Project</a></h3>
-        <img class="fit-picture" src="./assets/images/birthday-invite.png" height="300" />
-
-
-        <h3><a href="./public/movie_rank.html"> My Movie Ranking Project</a></h3>
-        <img class="fit-picture" src="./assets/images/movie-ranking.png" height="400" />
-
-        <a href="./public/contact.html"> My Contact</a></h3>
-        <a href="./public/about.html"> My information</a></h3>
-        
-
-
-     </body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess My Number!</title>
+  </head>
+  <body>
+    <header>
+      <h1>Guess My Number!</h1>
+      <p class="between">(Between 1 and 20)</p>
+      <button class="btn again">Again!</button>
+      <div class="number">?</div>
+    </header>
+    <main>
+      <section class="left">
+        <input type="number" class="guess" />
+        <button class="btn check">Check!</button>
+      </section>
+      <section class="right">
+        <p class="message">Start guessing...</p>
+        <p class="label-score">💯 Score: <span class="score">10</span></p>
+        <p class="label-highscore">
+          🏅 Highscore: <span class="highscore">0</span>
+        </p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
 </html>
-
-
